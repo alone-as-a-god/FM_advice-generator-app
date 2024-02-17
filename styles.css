@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope, sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+body {
+    background-color: hsl(218, 23%, 16%);
+
+}
+
+h1 {
+    font-size: 1rem;
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    color: hsl(193, 38%, 86%);
+    text-align: center;
+    font-size: 28px;
+    margin: 0 1rem 0 1rem;
+    padding: 3rem 2rem 0 2rem;
+}
+
+.advice{
+    padding-bottom: 1.5rem;
+    font-size: 28px;
+}
+
+#button{
+    position: relative;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+}
+#button:hover{
+    box-shadow: 0 0 10px hsl(150, 100%, 66%);
+}
+
+#button img{
+    padding-top: 4px;
+}
+
+#advice_text{
+    font-weight: 800;
+}
+
+#advice_id{
+    letter-spacing: 5px;
+    font-size: 14px;
+    padding-bottom: 2rem;
+}
+
+@media (min-width: 500px){
+    .card{
+        min-width: 500px;
+        max-width: 30vw;
+    }
+}
