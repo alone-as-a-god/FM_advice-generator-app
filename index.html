@@ -14,7 +14,7 @@
   <title>Frontend Mentor | Advice generator app</title>
 
 </head>
-<body>
+<body onload="getAdvice()">
   <main>
     <div class="container">
         <div class="card">
@@ -26,7 +26,7 @@
             <img src="images/pattern-divider-mobile.svg" alt="divider"/>
           </div>
 
-            <button onload="getAdvice()" id="button" onclick="getAdvice()"><img src="images/icon-dice.svg" alt="Submit Button"></button>
+            <button  id="button" onclick="getAdvice()"><img src="images/icon-dice.svg" alt="Submit Button"></button>
         </div>
       </div>
   </main>
